@@ -1,3 +1,21 @@
+body {
+    background-image: url(../img/bg.jpg);
+    /*  Cobre toda a área visível */
+    background-size: cover;
+
+}
+
+#page {
+    width: 800px;
+    /* tirar comportamento padrão da caixa (ela adiciona largura) */
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #F0E8C2;
+    /* 48px (cima e baixo) e auto - centralizar (esquerda e direita) */
+    margin: 48px auto;
+}
+
 img {
     border-radius: 16px;
 }
